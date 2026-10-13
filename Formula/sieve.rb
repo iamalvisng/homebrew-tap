@@ -1,25 +1,25 @@
 class Sieve < Formula
   desc "Code intelligence for coding agents: a symbol graph with call edges."
   homepage "https://github.com/iamalvisng/sieve"
-  version "0.1.4"
+  version "0.1.5"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/iamalvisng/sieve/releases/download/v0.1.4/sieve-cli-aarch64-apple-darwin.tar.xz"
-      sha256 "4f0c52e44310826a3238611e39fdc25dc50671f4a1d7efb0bc9df640e0a5824f"
+      url "https://github.com/iamalvisng/sieve/releases/download/v0.1.5/sieve-cli-aarch64-apple-darwin.tar.xz"
+      sha256 "ca2dd0e143f11bcf6ab72c1383bc1a37a9da39e8c986975f36b968d52e1b81a4"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/iamalvisng/sieve/releases/download/v0.1.4/sieve-cli-x86_64-apple-darwin.tar.xz"
-      sha256 "db62d93fadae9e877dfe01ed3a17eff46d8a7463b450257a41eb0be2a8ce941a"
+      url "https://github.com/iamalvisng/sieve/releases/download/v0.1.5/sieve-cli-x86_64-apple-darwin.tar.xz"
+      sha256 "54f91b03d42b791702707972e7f05e9a3ba3ba726a8d9c3c503216db1441a9e1"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/iamalvisng/sieve/releases/download/v0.1.4/sieve-cli-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "d6b7d48c515aeb904aa6f13a04e45802c065546e9ca6d6b53d8135c4bd50b2fe"
+      url "https://github.com/iamalvisng/sieve/releases/download/v0.1.5/sieve-cli-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "517b6414840e9e420a1d8cab5f1b6ba059f12e3d5d64460115ba2744f5a582ea"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/iamalvisng/sieve/releases/download/v0.1.4/sieve-cli-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "ec6d5824ef9b6327427aa4050e7ea1781bcfd440a6329eb4f2d4ce9db2751a13"
+      url "https://github.com/iamalvisng/sieve/releases/download/v0.1.5/sieve-cli-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "1ccf35b04ef3ca61b092f251a6db4fbbe4249df8f8c7013f7034fdc7c036ec73"
     end
   end
   license any_of: ["MIT", "Apache-2.0"]
